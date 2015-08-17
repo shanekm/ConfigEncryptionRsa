@@ -1,0 +1,12 @@
+c:\users\shane.kmiecik\documents\visual studio 2013\Projects\ConfigEncryptionRsa\ConfigEncryptionRsa\bin\Debug\ConfigEncryptionRsa.exe.config
+c:\users\shane.kmiecik\documents\visual studio 2013\Projects\ConfigEncryptionRsa\ConfigEncryptionRsa\bin\Debug\ConfigEncryptionRsa.exe
+c:\users\shane.kmiecik\documents\visual studio 2013\Projects\ConfigEncryptionRsa\ConfigEncryptionRsa\bin\Debug\ConfigEncryptionRsa.pdb
+c:\users\shane.kmiecik\documents\visual studio 2013\Projects\ConfigEncryptionRsa\ConfigEncryptionRsa\obj\Debug\ConfigEncryptionRsa.exe
+c:\users\shane.kmiecik\documents\visual studio 2013\Projects\ConfigEncryptionRsa\ConfigEncryptionRsa\obj\Debug\ConfigEncryptionRsa.pdb
+c:\users\shane.kmiecik\documents\visual studio 2013\Projects\ConfigEncryptionRsa\ConfigEncryptionRsa\bin\Debug\X509ProtectedConfigProvider.dll
+c:\users\shane.kmiecik\documents\visual studio 2013\Projects\ConfigEncryptionRsa\ConfigEncryptionRsa\bin\Debug\X509ProtectedConfigProvider.pdb
+c:\users\shane.kmiecik\documents\visual studio 2013\Projects\ConfigEncryptionRsa\ConfigEncryptionRsa\obj\Debug\ConfigEncryptionRsa.csprojResolveAssemblyReference.cache
+c:\users\shane.kmiecik\documents\visual studio 2013\Projects\ConfigEncryptionRsa\ConfigEncryptionRsa\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+c:\users\shane.kmiecik\documents\visual studio 2013\Projects\ConfigEncryptionRsa\ConfigEncryptionRsa\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+c:\users\shane.kmiecik\documents\visual studio 2013\Projects\ConfigEncryptionRsa\ConfigEncryptionRsa\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+c:\users\shane.kmiecik\documents\visual studio 2013\Projects\ConfigEncryptionRsa\ConfigEncryptionRsa\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml

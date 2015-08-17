@@ -1,0 +1,4 @@
+c:\users\shane.kmiecik\documents\visual studio 2013\Projects\ConfigEncryptionRsa\X509ProtectedConfigProvider\bin\Debug\X509ProtectedConfigProvider.dll
+c:\users\shane.kmiecik\documents\visual studio 2013\Projects\ConfigEncryptionRsa\X509ProtectedConfigProvider\bin\Debug\X509ProtectedConfigProvider.pdb
+c:\users\shane.kmiecik\documents\visual studio 2013\Projects\ConfigEncryptionRsa\X509ProtectedConfigProvider\obj\Debug\X509ProtectedConfigProvider.dll
+c:\users\shane.kmiecik\documents\visual studio 2013\Projects\ConfigEncryptionRsa\X509ProtectedConfigProvider\obj\Debug\X509ProtectedConfigProvider.pdb
