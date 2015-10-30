@@ -8,8 +8,6 @@
 
     public class Program
     {
-        private static readonly string appName = "ConfigEncryptionRsa.exe";
-
         private static void Main(string[] args)
         {
             // TestCertificates();
@@ -56,15 +54,16 @@
             // Test DB access
             DatabaseFactory.SetDatabaseProviderFactory(new DatabaseProviderFactory());
             Database db = DatabaseFactory.CreateDatabase("MyDbConnStr");
-
-            //string connStr = ConfigSecurity.DecryptConnectionString("MyDbConnStr");
             Console.WriteLine("DbConnString: " + db.ConnectionString);
 
             IDataReader reader = db.ExecuteReader(CommandType.Text, "SELECT TOP 5 * FROM TransactionActivity");
+            
             while (reader.Read())
             {
-                Console.WriteLine("Result: {0} {1} {2}", reader[0], reader[3], reader[4], reader[5]);
+                Console.WriteLine("Result: {0} {1} {2}", reader[0], reader[3], reader[4]);
             }
+
+            DatabaseFactory.ClearDatabaseProviderFactory();
         }
 
         private static void TestCertificates()
@@ -73,7 +72,6 @@
             var store = new X509Store(StoreName.My, StoreLocation.LocalMachine);
             store.Open(OpenFlags.ReadOnly);
 
-            // ... do work
             foreach (var cert in store.Certificates)
             {
                 // validate certificates
