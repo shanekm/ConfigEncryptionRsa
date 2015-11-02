@@ -34,20 +34,17 @@
             XmlDocument doc = new XmlDocument { PreserveWhitespace = true };
             doc.LoadXml(node.OuterXml);
 
-            // Create a 256 bit Rijndael key.
+            // Create Rijndael key.
             RijndaelManaged sessionKey = new RijndaelManaged();
             sessionKey.KeySize = 256;
 
-            // Encrypt it
             EncryptedXml eXml = new EncryptedXml();
-
             XmlElement elementToEncrypt = (XmlElement)node;
 
             byte[] encryptedElement = eXml.EncryptData(elementToEncrypt, sessionKey, false);
             EncryptedData edElement = new EncryptedData();
             edElement.Type = EncryptedXml.XmlEncElementUrl;
 
-            // Create an EncryptionMethod element so that the  receiver knows which algorithm to use for decryption.
             edElement.EncryptionMethod = new EncryptionMethod(EncryptedXml.XmlEncAES256Url);
 
             // Encrypt the session key and add it to an EncryptedKey element.
